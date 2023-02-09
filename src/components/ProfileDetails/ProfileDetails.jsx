@@ -4,6 +4,7 @@ import Profile from '../../img/profileImg.jpg';
 import './ProfileDetails.css';
 
 const ProfileDetails = () => {
+	// const ProfilePage = true;
 	return (
 		<div className="ProfileDetails">
 			<div className="ProfileImages">
@@ -22,18 +23,29 @@ const ProfileDetails = () => {
 						<span>3,330</span>
 						<span>Followers</span>
 					</div>
+
 					<div className="vl" />
 					<div className="follow">
 						<span>333</span>
 						<span>Following</span>
 					</div>
+					{/* {ProfilePage && (
+						<> */}
+						<div className="vl" >
+                             </div>
+							 <div className="follow">
+								<span>3</span>
+								<span>Posts</span>
+							 </div>
+						{/* </>
+					)} */}
 				</div>
 				<hr />
 			</div>
-
-			<span>
-				My Profile
-			</span>
+              {/* {ProfilePage ? "" :  */}
+			  <span>My Profile</span>
+			   {/* } */}
+			
 		</div>
 	);
 };

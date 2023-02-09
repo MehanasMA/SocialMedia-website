@@ -1,14 +1,17 @@
-import React from 'react'
+import React from 'react';
+import LogoSearch from '../LogoSearch/LogoSearch';
+import FollowersDetail from '../Followers/FollowersDetail';
+import InfoCard from '../InfoCard/InfoCard';
 
-import './ProfileLeft.css'
+import './ProfileLeft.css';
 const ProfileLeft = () => {
-  return (
-   <div className="ProfileLeft">
-    <LogoSearch/>
+	return (
+		<div className="ProfileLeft">
+			<LogoSearch />
+			<InfoCard/>
+			<FollowersDetail />
+		</div>
+	);
+};
 
-
-   </div>
-  )
-}
-
-export default ProfileLeft
+export default ProfileLeft;
