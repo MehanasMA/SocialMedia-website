@@ -1,7 +1,7 @@
-export const TrendData=[
+export const TrendData = [
     {
-        name:"Minions",
-        shares:990,
+        name: "Minions",
+        shares: 990,
     },
     {
         name: "Avatar",

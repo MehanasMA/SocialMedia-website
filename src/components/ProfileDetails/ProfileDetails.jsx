@@ -31,21 +31,19 @@ const ProfileDetails = () => {
 					</div>
 					{/* {ProfilePage && (
 						<> */}
-						<div className="vl" >
-                             </div>
-							 <div className="follow">
-								<span>3</span>
-								<span>Posts</span>
-							 </div>
-						{/* </>
+					<div className="vl" />
+					<div className="follow">
+						<span>3</span>
+						<span>Posts</span>
+					</div>
+					{/* </>
 					)} */}
 				</div>
 				<hr />
 			</div>
-              {/* {ProfilePage ? "" :  */}
-			  <span>My Profile</span>
-			   {/* } */}
-			
+			{/* {ProfilePage ? "" :  */}
+			<span>My Profile</span>
+			{/* } */}
 		</div>
 	);
 };

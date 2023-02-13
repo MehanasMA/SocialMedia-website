@@ -2,13 +2,13 @@ import postPic1 from '../img/postpic1.jpg'
 import postPic2 from '../img/postpic2.jpg'
 import postPic3 from '../img/postpic3.JPG'
 
-export const PostsData=[
+export const PostsData = [
     {
-        img:postPic1,
-        name:"Hessa",
-        desc:"Hey peeps",
+        img: postPic1,
+        name: "Hessa",
+        desc: "Hey peeps",
         likes: 2000,
-        liked:true
+        liked: true
     },
     {
         img: postPic2,

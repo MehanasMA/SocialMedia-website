@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import ProfileImg from '../../img/profileImg.jpg';
 import './PostShare.css';
-import { UilScenery, UilPlayCircle, UilLocationPoint, UilSchedule,UilTimes } from '@iconscout/react-unicons';
+import { UilScenery, UilPlayCircle, UilLocationPoint, UilSchedule, UilTimes } from '@iconscout/react-unicons';
 
 const PostShare = () => {
 	const [ image, setImage ] = useState(null);
@@ -43,13 +43,12 @@ const PostShare = () => {
 					</div>
 				</div>
 
-                {image && (
-                    <div className="previewImage">
-                        <UilTimes onClick={()=>setImage(null)}/>
-                        <img src={image.image} alt="" />
-                    </div>
-                )
-                }
+				{image && (
+					<div className="previewImage">
+						<UilTimes onClick={() => setImage(null)} />
+						<img src={image.image} alt="" />
+					</div>
+				)}
 			</div>
 		</div>
 	);

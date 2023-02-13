@@ -8,7 +8,7 @@ const ProfileLeft = () => {
 	return (
 		<div className="ProfileLeft">
 			<LogoSearch />
-			<InfoCard/>
+			<InfoCard />
 			<FollowersDetail />
 		</div>
 	);
