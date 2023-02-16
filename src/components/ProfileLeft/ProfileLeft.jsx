@@ -3,7 +3,7 @@ import LogoSearch from '../LogoSearch/LogoSearch';
 import FollowersDetail from '../Followers/FollowersDetail';
 import InfoCard from '../InfoCard/InfoCard';
 
-import './ProfileLeft.css';
+import './ProfileLeft.scss';
 const ProfileLeft = () => {
 	return (
 		<div className="ProfileLeft">

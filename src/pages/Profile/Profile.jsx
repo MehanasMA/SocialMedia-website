@@ -1,6 +1,6 @@
 import React from 'react';
 import ProfileLeft from '../../components/ProfileLeft/ProfileLeft';
-import './Profile.css';
+import './Profile.scss';
 import ProfileDetails from '../../components/ProfileDetails/ProfileDetails';
 import PostSide from '../../components/PostSide/PostSide';
 import RightSide from '../../components/RightSide/RightSide';

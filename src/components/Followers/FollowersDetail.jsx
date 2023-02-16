@@ -1,20 +1,20 @@
 import React from 'react';
-import { Followers } from '../../Data/FollowersData';
-import './FollowersDetail.css';
+import './FollowersDetail.scss';
 
-const FollowersDetail = () => {
+import { Followers } from '../../Data/FollowersData';
+const FollowersCard = () => {
 	return (
-		<div className="followersCard">
+		<div className="FollowersCard">
 			<h3>Who is following you</h3>
 
 			{Followers.map((follower, id) => {
 				return (
 					<div className="follower">
 						<div>
-							<img src={follower.img} alt="" className="followerImg" />
+							<img src={follower.img} alt="" className="followerImage" />
 							<div className="name">
 								<span>{follower.name}</span>
-								<span>{follower.username}</span>
+								<span>@{follower.username}</span>
 							</div>
 						</div>
 						<button className="button fc-button">Follow</button>
@@ -25,4 +25,4 @@ const FollowersDetail = () => {
 	);
 };
 
-export default FollowersDetail;
+export default FollowersCard;

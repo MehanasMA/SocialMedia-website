@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import ProfileImg from '../../img/profileImg.jpg';
-import './PostShare.css';
+import './PostShare.scss';
 import { UilScenery, UilPlayCircle, UilLocationPoint, UilSchedule, UilTimes } from '@iconscout/react-unicons';
 
 const PostShare = () => {

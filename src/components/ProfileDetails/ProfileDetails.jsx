@@ -1,10 +1,10 @@
 import React from 'react';
 import Cover from '../../img/cover.jpg';
 import Profile from '../../img/profileImg.jpg';
-import './ProfileDetails.css';
+import './ProfileDetails.scss';
 
 const ProfileDetails = () => {
-	// const ProfilePage = true;
+	const ProfilePage = true;
 	return (
 		<div className="ProfileDetails">
 			<div className="ProfileImages">
@@ -29,21 +29,21 @@ const ProfileDetails = () => {
 						<span>333</span>
 						<span>Following</span>
 					</div>
-					{/* {ProfilePage && (
-						<> */}
+					{ProfilePage && (
+						<>
 					<div className="vl" />
 					<div className="follow">
 						<span>3</span>
 						<span>Posts</span>
 					</div>
-					{/* </>
-					)} */}
+					</>
+					)}
 				</div>
 				<hr />
 			</div>
-			{/* {ProfilePage ? "" :  */}
+			{ProfilePage ? "" : 
 			<span>My Profile</span>
-			{/* } */}
+			 } 
 		</div>
 	);
 };

@@ -1,4 +1,4 @@
-/* .Auth {
+ .Auth {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -11,10 +11,10 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-} */
+} 
 
-/*left side*/
-/* 
+// left side*/
+
 .a-left {
 	gap: 2rem;
 }
@@ -26,21 +26,21 @@
 
 .webname > h1 {
 	font-size: 3rem;
-	background-color: red; */
+	background-color: red; 
 
 	/*gradient clr creation*/
-	/* background-image: var(--buttonBg); */
+	 background-image: var(--buttonBg); 
 
 	/*bg size &repeatproperty*/
-	/* background-size: 100%;
+	 background-size: 100%;
 	background-repeat: repeat;
 
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	-moz-background-clip: text;
 	-moz-text-fill-color: transparent;
-} */
-/* 
+} 
+
 .webname > h6 {
 	font-size: 0.85rem;
 }
@@ -60,8 +60,8 @@
 	border-radius: 8px;
 	padding: 20px;
 	flex: 1;
-} */
-/* 
+} 
+
 .infoForm > div {
 	display: flex;
 	gap: 1rem;
@@ -85,82 +85,82 @@
 	width: 100%;
 	align-items: center;
 	justify-content: center;
-} */
+} 
 
-$background-color_1: red;
-$background-color_2: var(--inputColor);
-$background-color_3: var(--cardColor);
+// $background-color_1: red;
+// $background-color_2: var(--inputColor);
+// $background-color_3: var(--cardColor);
 
-/*left side*/
-.Auth {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 100vh;
-	gap: 4rem;
-	position: relative;
-	>div {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-}
-.a-left {
-	gap: 2rem;
-	>img {
-		width: 4rem;
-		height: 4rem;
-	}
-}
-.webname {
-	>h1 {
-		font-size: 3rem;
-		background-color: $background-color_1;
-		background-image: var(--buttonBg);
-		background-size: 100%;
-		background-repeat: repeat;
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		-moz-background-clip: text;
-		-moz-text-fill-color: transparent;
-	}
-	>h6 {
-		font-size: 0.85rem;
-	}
-}
-.infoForm {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	gap: 2rem;
-	>div {
-		display: flex;
-		gap: 1rem;
-		height: 2rem;
-		width: 90%;
-	}
-}
-.infoInput {
-	border: none;
-	outline: none;
-	background-color: $background-color_2;
-	border-radius: 8px;
-	padding: 20px;
-	flex: 1;
-}
-.infoButton {
-	width: 6rem;
-	height: 2rem;
-	align-self: flex-end;
-}
-.authForm {
-	background-color: $background-color_3;
-	border-radius: 1rem;
-	padding: 1rem;
-	>div {
-		width: 100%;
-		align-items: center;
-		justify-content: center;
-	}
-}
+// /*left side*/
+// .Auth {
+// 	display: flex;
+// 	align-items: center;
+// 	justify-content: center;
+// 	height: 100vh;
+// 	gap: 4rem;
+// 	position: relative;
+// 	>div {
+// 		display: flex;
+// 		align-items: center;
+// 		justify-content: center;
+// 	}
+// }
+// .a-left {
+// 	gap: 2rem;
+// 	>img {
+// 		width: 4rem;
+// 		height: 4rem;
+// 	}
+// }
+// .webname {
+// 	>h1 {
+// 		font-size: 3rem;
+// 		background-color: $background-color_1;
+// 		background-image: var(--buttonBg);
+// 		background-size: 100%;
+// 		background-repeat: repeat;
+// 		-webkit-background-clip: text;
+// 		-webkit-text-fill-color: transparent;
+// 		-moz-background-clip: text;
+// 		-moz-text-fill-color: transparent;
+// 	}
+// 	>h6 {
+// 		font-size: 0.85rem;
+// 	}
+// }
+// .infoForm {
+// 	display: flex;
+// 	flex-direction: column;
+// 	justify-content: center;
+// 	align-items: center;
+// 	gap: 2rem;
+// 	>div {
+// 		display: flex;
+// 		gap: 1rem;
+// 		height: 2rem;
+// 		width: 90%;
+// 	}
+// }
+// .infoInput {
+// 	border: none;
+// 	outline: none;
+// 	background-color: $background-color_2;
+// 	border-radius: 8px;
+// 	padding: 20px;
+// 	flex: 1;
+// }
+// .infoButton {
+// 	width: 6rem;
+// 	height: 2rem;
+// 	align-self: flex-end;
+// }
+// .authForm {
+// 	background-color: $background-color_3;
+// 	border-radius: 1rem;
+// 	padding: 1rem;
+// 	>div {
+// 		width: 100%;
+// 		align-items: center;
+// 		justify-content: center;
+// 	}
+// }

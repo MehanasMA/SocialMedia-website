@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './InfoCard.css';
+import './InfoCard.scss';
 import { UilPen } from '@iconscout/react-unicons';
 import ProfileModal from '../ProfileModal.jsx/ProfileModal';
 
