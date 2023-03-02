@@ -13,21 +13,30 @@ function App() {
       <div className="App">
 
         <Routes>
+         
           <Route
             path="/"
-            element={user ? <Home/>: <Navigate to="/auth" />}
-          />
-          <Route
-            path="/auth"
-            element={user ?  <Navigate to="/" />:<Auth/>}
+            element={user ? <Navigate to="home" /> : <Navigate to="auth" />}
           />
           <Route
             path="/home"
-            element={user ? <Home/>:<Navigate to="/auth" /> }
+            element={user ? <Home /> : <Navigate to="../auth" />}
+          />
+          <Route
+            path="/auth"
+            element={user ? <Navigate to="../home" /> : <Auth />}
           />
           <Route
             path="/profile/:id"
-            element={user ? <Profile /> : <Navigate to="/auth" />}
+            element={user ? <Profile /> : <Navigate to="../auth" />}
+          />
+          <Route
+            path="*"
+            element={
+              <main style={{ padding: "1rem" }}>
+                <p>There's nothing here!</p>
+              </main>
+            }
           />
         </Routes>
       </div>

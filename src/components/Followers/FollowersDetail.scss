@@ -1,3 +1,5 @@
+$color_1: var(--orange);
+
 .FollowersCard {
 	width: 100%;
 	border-radius: 0.7rem;
@@ -35,4 +37,12 @@
 	height: 2rem;
 	padding-left: 20px;
 	padding-right: 20px;
+}
+
+
+.UnfollowButton {
+	color: $color_1;
+	border: 2px solid var(--orange);
+	cursor: pointer;
+	background: transparent;
 }

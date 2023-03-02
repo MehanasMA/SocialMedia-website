@@ -11,7 +11,7 @@ const Profile = () => {
 			<ProfileLeft />
 
 			<div className="Profile-center">
-				<ProfileDetails />
+				<ProfileDetails location="profilePage"/>
 				<PostSide />
 			</div>
 			<RightSide />
